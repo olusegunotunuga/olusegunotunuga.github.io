@@ -67,3 +67,18 @@ color:#777;
 border-top:1px solid #ccc;
 padding-top:10px;
 }
+
+.profile{
+display:flex;
+gap:30px;
+align-items:flex-start;
+}
+
+.profile img{
+width:180px;
+border-radius:5px;
+}
+
+.bio{
+flex:1;
+}
