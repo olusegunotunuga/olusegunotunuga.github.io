@@ -158,3 +158,19 @@ color:#777;
 .talklist li{
 margin-bottom:12px;
 }
+
+
+.profile {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.profile-photo {
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
