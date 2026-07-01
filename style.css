@@ -131,46 +131,24 @@ background:#f0f0f0;
 
 /* PROFILE SECTION */
 
-.profile{
-display:flex;
-gap:30px;
-}
-
-.profile img{
-width:180px;
-border-radius:4px;
-}
-
-.bio{
-flex:1;
-}
-
-
-footer{
-margin-top:40px;
-border-top:1px solid #ccc;
-padding-top:10px;
-font-size:0.9em;
-color:#777;
-}
-
-
-.talklist li{
-margin-bottom:12px;
-}
-
-
 .profile {
-  text-align: center;
-  margin: 20px auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+  margin: 25px 0;
+  text-align: left;
 }
 
-.profile-photo {
-  width: 240px;
+.profile img.profile-photo {
+  width: 260px;
   height: 300px;
   object-fit: cover;
-  object-position: center 20%;
+  object-position: center 18%;
   border-radius: 8px;
   display: block;
-  margin: 0 auto;
+  flex-shrink: 0;
+}
+
+.bio {
+  flex: 1;
 }
