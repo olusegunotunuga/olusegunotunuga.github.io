@@ -166,10 +166,10 @@ margin-bottom:12px;
 }
 
 .profile-photo {
-  width: 220px;
-  height: 280px;
+  width: 240px;
+  height: 300px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 20%;
   border-radius: 8px;
   display: block;
   margin: 0 auto;
