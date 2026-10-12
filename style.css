@@ -98,12 +98,26 @@ background:#333;
 
 }
 
-/* SHOW DROPDOWN */
+/* SHOW FIRST-LEVEL DROPDOWN ONLY */
 
-.menu li:hover .submenu{
-
+.menu > li:hover > .submenu{
 display:block;
+}
 
+
+/* NESTED DROPDOWN */
+
+.submenu .submenu{
+display:none;
+top:0;
+left:100%;
+}
+
+
+/* SHOW NESTED DROPDOWN ONLY WHEN ITS PARENT IS HOVERED */
+
+.submenu > li:hover > .submenu{
+display:block;
 }
 
 
